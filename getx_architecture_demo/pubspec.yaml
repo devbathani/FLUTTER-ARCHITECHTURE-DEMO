@@ -1,0 +1,26 @@
+name: getx_architecture_demo
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  gettext: ^1.2.0
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+  geolocator: ^12.0.0
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
